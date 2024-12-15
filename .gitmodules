@@ -1,0 +1,3 @@
+[submodule "submodules/Universal-OpenAI-Net-Client"]
+	path = submodules/Universal-OpenAI-Net-Client
+	url = https://github.com/drizzle-mizzle/Universal-OpenAI-Net-Client
