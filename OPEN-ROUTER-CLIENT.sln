@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenRouter.Client", "src\OpenRouter.Client\OpenRouter.Client.csproj", "{89CEDBD3-255B-4AC3-A31E-88F496AA76F9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Libs", "Libs", "{BB712B2E-40D4-4084-ABF6-B5903F890AD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversalOpenAi.Client", "submodules\Universal-OpenAI-Net-Client\src\UniversalOpenAi.Client\UniversalOpenAi.Client.csproj", "{DA815697-7051-47EB-9FA5-AF2741D77850}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{89CEDBD3-255B-4AC3-A31E-88F496AA76F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89CEDBD3-255B-4AC3-A31E-88F496AA76F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89CEDBD3-255B-4AC3-A31E-88F496AA76F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89CEDBD3-255B-4AC3-A31E-88F496AA76F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF6BB439-75A0-4166-B0F6-F04AD910CD52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF6BB439-75A0-4166-B0F6-F04AD910CD52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF6BB439-75A0-4166-B0F6-F04AD910CD52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF6BB439-75A0-4166-B0F6-F04AD910CD52}.Release|Any CPU.Build.0 = Release|Any CPU
+		{713F765C-5704-4C11-8E23-706A396721DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{713F765C-5704-4C11-8E23-706A396721DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{713F765C-5704-4C11-8E23-706A396721DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{713F765C-5704-4C11-8E23-706A396721DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA815697-7051-47EB-9FA5-AF2741D77850}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA815697-7051-47EB-9FA5-AF2741D77850}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA815697-7051-47EB-9FA5-AF2741D77850}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA815697-7051-47EB-9FA5-AF2741D77850}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{713F765C-5704-4C11-8E23-706A396721DA} = {BB712B2E-40D4-4084-ABF6-B5903F890AD4}
+		{DA815697-7051-47EB-9FA5-AF2741D77850} = {BB712B2E-40D4-4084-ABF6-B5903F890AD4}
+	EndGlobalSection
+EndGlobal
