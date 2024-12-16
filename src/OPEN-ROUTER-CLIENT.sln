@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenRouter.Client", "OpenRo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversalOpenAi.Client", "..\submodules\Universal-OpenAI-Net-Client\src\UniversalOpenAi.Client\UniversalOpenAi.Client.csproj", "{BB3E4D7F-DB3E-4E80-B09E-C28EF2520234}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenRouter.Test", "OpenRouter.Test\OpenRouter.Test.csproj", "{25DBF7AF-F3CE-4ECC-9D19-D0FEA168100A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,10 @@ Global
 		{BB3E4D7F-DB3E-4E80-B09E-C28EF2520234}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BB3E4D7F-DB3E-4E80-B09E-C28EF2520234}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BB3E4D7F-DB3E-4E80-B09E-C28EF2520234}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25DBF7AF-F3CE-4ECC-9D19-D0FEA168100A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25DBF7AF-F3CE-4ECC-9D19-D0FEA168100A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25DBF7AF-F3CE-4ECC-9D19-D0FEA168100A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25DBF7AF-F3CE-4ECC-9D19-D0FEA168100A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{713F765C-5704-4C11-8E23-706A396721DA} = {BB712B2E-40D4-4084-ABF6-B5903F890AD4}
