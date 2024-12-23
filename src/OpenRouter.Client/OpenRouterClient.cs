@@ -42,11 +42,11 @@ namespace OpenRouter.Client
         /// <summary>
         /// POST https://openrouter.ai/api/v1/chat/completions
         /// </summary>
-        public Task<CompletionsResponse> CompleteAsync(string model, ChatMessage[] messages)
-            => CLIENT.CompleteAsync(model, messages);
+        public Task<CompletionsResponse> CompleteAsync(string model, ChatMessage[] messages, GenerationSettings? generationSettings = null)
+            => CLIENT.CompleteAsync(model, messages, generationSettings);
 
-        public Task<CompletionsResponse> CompleteAsync(string apiKey, string model, ChatMessage[] messages)
-            => CLIENT.CompleteAsync(apiKey, model, messages);
+        public Task<CompletionsResponse> CompleteAsync(string apiKey, string model, ChatMessage[] messages, GenerationSettings? generationSettings = null)
+            => CLIENT.CompleteAsync(apiKey, model, messages, generationSettings);
 
 
         public Task<OpenRouterModel[]> ModelsAsync()
