@@ -22,4 +22,17 @@ public class Tests
 
         Assert.That(models, Is.Not.Empty);
     }
+
+
+    [Test]
+    public async Task Complete()
+    {
+        var response = await client.CompleteAsync("deepseek/deepseek-chat-v3-0324:free", [
+            new()
+            {
+                Content = "Hello!",
+                Role = "User"
+            }
+        ]);
+    }
 }
